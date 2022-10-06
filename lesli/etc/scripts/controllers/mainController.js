@@ -28,7 +28,7 @@ fantasyApp.controller("mainController", function ($scope, $q, $parse) {
 
     function sendRequestByUrl(year) {
         const deferred = $q.defer();
-        const path = `https://play-with-remedy.github.io/league-info/lesli/etc/files/otgruzka_${year}.xlsm`;
+        const path = `https://fotus7.github.io/lesli/etc/files/otgruzka_${year}.xlsm`;
 
         let xmlHttpRequest = new XMLHttpRequest();
         xmlHttpRequest.open("GET", path, true);
