@@ -252,18 +252,18 @@ fantasyApp.controller("mainController", function ($scope, $q, $parse) {
             ]
 
             let chartDataArray2022 = [
-                ['Jan',  sum(productObjectList, 'Jan', '2022')],
-                ['Feb',  sum(productObjectList, 'Feb', '2022')],
-                ['Mar',  sum(productObjectList, 'Mar', '2022')],
-                ['Apr',  sum(productObjectList, 'Apr', '2022')],
-                ['May',  sum(productObjectList, 'May', '2022')],
-                ['Jun',  sum(productObjectList, 'Jun', '2022')],
-                ['Jul',  sum(productObjectList, 'Jul', '2022')],
-                ['Aug',  sum(productObjectList, 'Aug', '2022')],
-                ['Sep',  sum(productObjectList, 'Sep', '2022')],
-                ['Oct',  sum(productObjectList, 'Oct', '2022')],
-                ['Nov',  sum(productObjectList, 'Nov', '2022')],
-                ['Dec',  sum(productObjectList, 'Dec', '2022')]
+                ['Jan 2022',  sum(productObjectList, 'Jan', '2022')],
+                ['Feb 2022',  sum(productObjectList, 'Feb', '2022')],
+                ['Mar 2022',  sum(productObjectList, 'Mar', '2022')],
+                ['Apr 2022',  sum(productObjectList, 'Apr', '2022')],
+                ['May 2022',  sum(productObjectList, 'May', '2022')],
+                ['Jun 2022',  sum(productObjectList, 'Jun', '2022')],
+                ['Jul 2022',  sum(productObjectList, 'Jul', '2022')],
+                ['Aug 2022',  sum(productObjectList, 'Aug', '2022')],
+                ['Sep 2022',  sum(productObjectList, 'Sep', '2022')],
+                ['Oct 2022',  sum(productObjectList, 'Oct', '2022')],
+                ['Nov 2022',  sum(productObjectList, 'Nov', '2022')],
+                ['Dec 2022',  sum(productObjectList, 'Dec', '2022')]
             ];
 
             let chartDataArray20202021 = [
