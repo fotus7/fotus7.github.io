@@ -269,7 +269,7 @@ fantasyApp.controller("mainController", function ($scope, $q, $parse) {
             let chartDataArray20202021 = [
                 ['Jan', sum(productObjectList, 'Jan', '2020')],
                 ['Feb', sum(productObjectList, 'Feb', '2020')],
-                ['Mar,  sum(productObjectList, 'Mar', '2020')],
+                ['Mar',  sum(productObjectList, 'Mar', '2020')],
                 ['Apr',  sum(productObjectList, 'Apr', '2020')],
                 ['May',  sum(productObjectList, 'May', '2020')],
                 ['Jun',  sum(productObjectList, 'Jun', '2020')],
